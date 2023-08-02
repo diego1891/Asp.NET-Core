@@ -1,0 +1,10 @@
+E:\.NET\ProyectoCore\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+E:\.NET\ProyectoCore\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+E:\.NET\ProyectoCore\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+E:\.NET\ProyectoCore\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.AssemblyReference.cache
+E:\.NET\ProyectoCore\Dominio\obj\Debug\netcoreapp3.1\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+E:\.NET\ProyectoCore\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+E:\.NET\ProyectoCore\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+E:\.NET\ProyectoCore\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+E:\.NET\ProyectoCore\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+E:\.NET\ProyectoCore\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb

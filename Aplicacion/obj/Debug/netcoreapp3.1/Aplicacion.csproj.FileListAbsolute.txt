@@ -1,0 +1,15 @@
+E:\.NET\ProyectoCore\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.deps.json
+E:\.NET\ProyectoCore\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.dll
+E:\.NET\ProyectoCore\Aplicacion\bin\Debug\netcoreapp3.1\Aplicacion.pdb
+E:\.NET\ProyectoCore\Aplicacion\bin\Debug\netcoreapp3.1\Dominio.dll
+E:\.NET\ProyectoCore\Aplicacion\bin\Debug\netcoreapp3.1\Persistencia.dll
+E:\.NET\ProyectoCore\Aplicacion\bin\Debug\netcoreapp3.1\Dominio.pdb
+E:\.NET\ProyectoCore\Aplicacion\bin\Debug\netcoreapp3.1\Persistencia.pdb
+E:\.NET\ProyectoCore\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csproj.AssemblyReference.cache
+E:\.NET\ProyectoCore\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+E:\.NET\ProyectoCore\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.AssemblyInfoInputs.cache
+E:\.NET\ProyectoCore\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.AssemblyInfo.cs
+E:\.NET\ProyectoCore\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csproj.CoreCompileInputs.cache
+E:\.NET\ProyectoCore\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.csproj.CopyComplete
+E:\.NET\ProyectoCore\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.dll
+E:\.NET\ProyectoCore\Aplicacion\obj\Debug\netcoreapp3.1\Aplicacion.pdb

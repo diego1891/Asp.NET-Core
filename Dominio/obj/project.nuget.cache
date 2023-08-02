@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jqRHhNsX+uhjVWlq2EpXhyNnuwhHeij/aAzMijAtIyM4kZNzdKmoLj7oxY+/rYl9J6ru0meluMq9iAJf4mqUPQ==",
+  "success": true,
+  "projectFilePath": "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Diego\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}
