@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\.NET\\ProyectoCore\\WebAPI\\WebAPI.csproj": {}
+    "e:\\.NET\\ProyectoCore\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "E:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
+    "e:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "e:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "E:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
+        "projectPath": "e:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
         "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-        "outputPath": "E:\\.NET\\ProyectoCore\\Aplicacion\\obj\\",
+        "outputPath": "e:\\.NET\\ProyectoCore\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,11 +26,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj": {
-                "projectPath": "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj"
+              "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj": {
+                "projectPath": "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj"
               },
-              "E:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "E:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj"
+              "e:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "e:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -91,14 +91,14 @@
         }
       }
     },
-    "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj": {
+    "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj",
+        "projectPath": "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-        "outputPath": "E:\\.NET\\ProyectoCore\\Dominio\\obj\\",
+        "outputPath": "e:\\.NET\\ProyectoCore\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -124,6 +124,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -153,14 +159,14 @@
         }
       }
     },
-    "E:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
+    "e:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "e:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "E:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+        "projectPath": "e:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-        "outputPath": "E:\\.NET\\ProyectoCore\\Persistencia\\obj\\",
+        "outputPath": "e:\\.NET\\ProyectoCore\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -175,8 +181,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj": {
-                "projectPath": "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj"
+              "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj": {
+                "projectPath": "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -197,15 +203,15 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[3.1.1, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[3.1.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[3.1.1, )"
             }
           },
           "imports": [
@@ -237,14 +243,86 @@
         }
       }
     },
-    "E:\\.NET\\ProyectoCore\\WebAPI\\WebAPI.csproj": {
+    "e:\\.NET\\ProyectoCore\\Seguridad\\Seguridad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\.NET\\ProyectoCore\\WebAPI\\WebAPI.csproj",
-        "projectName": "WebAPI",
-        "projectPath": "E:\\.NET\\ProyectoCore\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "e:\\.NET\\ProyectoCore\\Seguridad\\Seguridad.csproj",
+        "projectName": "Seguridad",
+        "projectPath": "e:\\.NET\\ProyectoCore\\Seguridad\\Seguridad.csproj",
         "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-        "outputPath": "E:\\.NET\\ProyectoCore\\WebAPI\\obj\\",
+        "outputPath": "e:\\.NET\\ProyectoCore\\Seguridad\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "e:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "e:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "e:\\.NET\\ProyectoCore\\WebAPI\\WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "e:\\.NET\\ProyectoCore\\WebAPI\\WebAPI.csproj",
+        "projectName": "WebAPI",
+        "projectPath": "e:\\.NET\\ProyectoCore\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
+        "outputPath": "e:\\.NET\\ProyectoCore\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -260,8 +338,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
-                "projectPath": "E:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj"
+              "e:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "e:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj"
+              },
+              "e:\\.NET\\ProyectoCore\\Seguridad\\Seguridad.csproj": {
+                "projectPath": "e:\\.NET\\ProyectoCore\\Seguridad\\Seguridad.csproj"
               }
             }
           }

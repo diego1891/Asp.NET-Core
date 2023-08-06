@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {}
+    "e:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {}
   },
   "projects": {
-    "E:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
+    "e:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "e:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "E:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
+        "projectPath": "e:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
         "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-        "outputPath": "E:\\.NET\\ProyectoCore\\Aplicacion\\obj\\",
+        "outputPath": "e:\\.NET\\ProyectoCore\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,11 +26,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj": {
-                "projectPath": "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj"
+              "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj": {
+                "projectPath": "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj"
               },
-              "E:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "E:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj"
+              "e:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "e:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -91,14 +91,14 @@
         }
       }
     },
-    "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj": {
+    "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj",
+        "projectPath": "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-        "outputPath": "E:\\.NET\\ProyectoCore\\Dominio\\obj\\",
+        "outputPath": "e:\\.NET\\ProyectoCore\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -124,6 +124,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -153,14 +159,14 @@
         }
       }
     },
-    "E:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
+    "e:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "e:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "E:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+        "projectPath": "e:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-        "outputPath": "E:\\.NET\\ProyectoCore\\Persistencia\\obj\\",
+        "outputPath": "e:\\.NET\\ProyectoCore\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -175,8 +181,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj": {
-                "projectPath": "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj"
+              "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj": {
+                "projectPath": "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -197,15 +203,15 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[3.1.1, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[3.1.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[3.1.1, )"
             }
           },
           "imports": [

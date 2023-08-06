@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj": {}
+    "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj": {}
   },
   "projects": {
-    "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj": {
+    "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj",
+        "projectPath": "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-        "outputPath": "E:\\.NET\\ProyectoCore\\Dominio\\obj\\",
+        "outputPath": "e:\\.NET\\ProyectoCore\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

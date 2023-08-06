@@ -14,7 +14,7 @@ namespace Aplicacion.Cursos
     {
         
         public class Ejecuta : IRequest{
-             public int CursoId { get; set;}
+             public Guid CursoId { get; set;}
         }
 
         public class Manejador : IRequestHandler<Ejecuta>
@@ -25,6 +25,21 @@ namespace Aplicacion.Cursos
             }
             public async Task<Unit> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
+                var instructoresBD = context1.CursoInstructor.Where(x => x.CursoId == request.CursoId);
+                foreach(var instructor in instructoresBD ){
+                    context1.CursoInstructor.Remove(instructor);
+                }
+
+                var comentariosDB = context1.Comentario.Where(x => x.CursoId == request.CursoId).ToList();
+                foreach(var coment in comentariosDB){
+                    context1.Comentario.Remove(coment);
+                }
+
+                var precioDB = context1.Precio.Where(x => x.CursoId == request.CursoId).FirstOrDefault();
+                if(precioDB != null){
+                    context1.Precio.Remove(precioDB);
+                }
+
                 var curso = await context1.Curso.FindAsync(request.CursoId);
                 if(curso==null){
                     //throw new Exception("No se puede eliminar curso");

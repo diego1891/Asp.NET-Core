@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Aplicacion.Cursos;
 using Dominio;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 
@@ -13,37 +14,33 @@ namespace WebAPI.Controllers
     [Route("api/[controller]")]
     [ApiController]
 
-    public class CursosController : ControllerBase
+    public class CursosController : MiControllerBase
     {
-        private readonly IMediator mediator1;
-        public CursosController(IMediator mediator){
-            mediator1 = mediator;
-        }
 
         [HttpGet]
-        public async Task<ActionResult<List<Curso>>> Get(){
-            return await mediator1.Send(new Consulta.ListaCursos());
+        public async Task<ActionResult<List<CursoDto>>> Get(){
+            return await Mediator.Send(new Consulta.ListaCursos());
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Curso>> Detalle(int id){
-            return await mediator1.Send(new ConsultaId.CursoUnico{Id = id});
+        public async Task<ActionResult<CursoDto>> Detalle(Guid id){
+            return await Mediator.Send(new ConsultaId.CursoUnico{Id = id});
         }
 
         [HttpPost]
         public async Task<ActionResult<Unit>> Crear(Nuevo.Ejecuta data){
-            return await mediator1.Send(data);
+            return await Mediator.Send(data);
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult<Unit>> Editar(int id, Editar.Ejecuta data){
+        public async Task<ActionResult<Unit>> Editar(Guid id, Editar.Ejecuta data){
             data.CursoId = id;
-            return await mediator1.Send(data);
+            return await Mediator.Send(data);
         }
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult<Unit>> Eliminar(int id){
-            return await mediator1.Send(new Eliminar.Ejecuta{CursoId = id});
+        public async Task<ActionResult<Unit>> Eliminar(Guid id){
+            return await Mediator.Send(new Eliminar.Ejecuta{CursoId = id});
         }
     }
 }

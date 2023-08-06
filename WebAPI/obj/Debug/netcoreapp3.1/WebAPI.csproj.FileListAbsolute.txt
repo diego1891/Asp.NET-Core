@@ -83,3 +83,10 @@ E:\.NET\ProyectoCore\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CopyComplete
 E:\.NET\ProyectoCore\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
 E:\.NET\ProyectoCore\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
 E:\.NET\ProyectoCore\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
+E:\.NET\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\.NET\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\.NET\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\.NET\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+E:\.NET\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+E:\.NET\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Seguridad.dll
+E:\.NET\ProyectoCore\WebAPI\bin\Debug\netcoreapp3.1\Seguridad.pdb

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistencia", "Persistenci
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{2B7C783A-52B7-42C4-8D92-7E7F11D579D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seguridad", "Seguridad\Seguridad.csproj", "{167E5146-B791-4D75-A93B-9C2FECEDB5DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{2B7C783A-52B7-42C4-8D92-7E7F11D579D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B7C783A-52B7-42C4-8D92-7E7F11D579D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B7C783A-52B7-42C4-8D92-7E7F11D579D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{167E5146-B791-4D75-A93B-9C2FECEDB5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{167E5146-B791-4D75-A93B-9C2FECEDB5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{167E5146-B791-4D75-A93B-9C2FECEDB5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{167E5146-B791-4D75-A93B-9C2FECEDB5DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
