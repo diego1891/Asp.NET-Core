@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj": {}
+    "E:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj": {}
   },
   "projects": {
-    "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj": {
+    "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj",
+        "projectPath": "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-        "outputPath": "e:\\.NET\\ProyectoCore\\Dominio\\obj\\",
+        "outputPath": "E:\\.NET\\ProyectoCore\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -72,14 +72,14 @@
         }
       }
     },
-    "e:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
+    "E:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "E:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "e:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+        "projectPath": "E:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-        "outputPath": "e:\\.NET\\ProyectoCore\\Persistencia\\obj\\",
+        "outputPath": "E:\\.NET\\ProyectoCore\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -94,8 +94,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj": {
-                "projectPath": "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj"
+              "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj": {
+                "projectPath": "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj"
               }
             }
           }

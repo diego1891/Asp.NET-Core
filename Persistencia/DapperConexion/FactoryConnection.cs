@@ -12,8 +12,8 @@ namespace Persistencia.DapperConexion
     {
         private IDbConnection connection1;
         private readonly IOptions<ConexionConfiguracion> configs1;
-        public FactoryConnection(IDbConnection connection){
-            connection1 = connection;
+        public FactoryConnection(IOptions<ConexionConfiguracion> configs){
+            configs1 = configs;
         }
 
         public void CloseConnection()
@@ -27,7 +27,7 @@ namespace Persistencia.DapperConexion
         {
             /*Se evalua si la cadena de conexion existe, si no la crea*/
             if(connection1 == null){
-                connection1 = new SqlConnection(configs1.Value.ConexionSQL);
+                connection1 = new SqlConnection(configs1.Value.DefaultConnection);
             }
             /*Se evalua si está abierta y si no lo está la abre*/
             if(connection1.State != ConnectionState.Open){

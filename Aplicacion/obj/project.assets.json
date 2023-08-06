@@ -7025,11 +7025,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "e:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
+      "projectUniqueName": "E:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
       "projectName": "Aplicacion",
-      "projectPath": "e:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
+      "projectPath": "E:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
       "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-      "outputPath": "e:\\.NET\\ProyectoCore\\Aplicacion\\obj\\",
+      "outputPath": "E:\\.NET\\ProyectoCore\\Aplicacion\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -7044,11 +7044,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj": {
-              "projectPath": "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj"
+            "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj": {
+              "projectPath": "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj"
             },
-            "e:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
-              "projectPath": "e:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj"
+            "E:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
+              "projectPath": "E:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj"
             }
           }
         }

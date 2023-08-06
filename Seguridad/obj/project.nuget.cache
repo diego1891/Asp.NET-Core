@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0zu6OwVBsngXaa1B+Yl8XS9AWupxggytccHPJf8zRV90y5Owi9HBkbIXPz1d6OcIrtrChGEhSH8tyl4tWiaKVA==",
+  "dgSpecHash": "6v7OU8RVLzcun/tp85+keek6yoJtpKCfww3Yqs2hqGB650MzfABwNBLpW4Za275nQh56Rd10oweORlcdBsw0Iw==",
   "success": true,
-  "projectFilePath": "e:\\.NET\\ProyectoCore\\Seguridad\\Seguridad.csproj",
+  "projectFilePath": "E:\\.NET\\ProyectoCore\\Seguridad\\Seguridad.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Diego\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
     "C:\\Users\\Diego\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.1\\automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",

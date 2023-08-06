@@ -34,6 +34,9 @@ namespace Persistencia.Migrations
                     b.Property<Guid>("CursoId")
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<DateTime?>("FechaCreacion")
+                        .HasColumnType("datetime2");
+
                     b.Property<int>("Puntaje")
                         .HasColumnType("int");
 
@@ -52,6 +55,9 @@ namespace Persistencia.Migrations
 
                     b.Property<string>("Descripcion")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("FechaCreacion")
+                        .HasColumnType("datetime2");
 
                     b.Property<DateTime?>("FechaPublicacion")
                         .HasColumnType("datetime2");
@@ -90,6 +96,9 @@ namespace Persistencia.Migrations
 
                     b.Property<string>("Apellidos")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("FechaCreacion")
+                        .HasColumnType("datetime2");
 
                     b.Property<byte[]>("FotoPerfil")
                         .HasColumnType("varbinary(max)");

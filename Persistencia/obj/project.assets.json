@@ -5403,11 +5403,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "e:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+      "projectUniqueName": "E:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj",
       "projectName": "Persistencia",
-      "projectPath": "e:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+      "projectPath": "E:\\.NET\\ProyectoCore\\Persistencia\\Persistencia.csproj",
       "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-      "outputPath": "e:\\.NET\\ProyectoCore\\Persistencia\\obj\\",
+      "outputPath": "E:\\.NET\\ProyectoCore\\Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5422,8 +5422,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj": {
-              "projectPath": "e:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj"
+            "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj": {
+              "projectPath": "E:\\.NET\\ProyectoCore\\Dominio\\Dominio.csproj"
             }
           }
         }

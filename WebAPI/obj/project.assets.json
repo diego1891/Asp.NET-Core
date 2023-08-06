@@ -7572,11 +7572,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "e:\\.NET\\ProyectoCore\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "E:\\.NET\\ProyectoCore\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "e:\\.NET\\ProyectoCore\\WebAPI\\WebAPI.csproj",
+      "projectPath": "E:\\.NET\\ProyectoCore\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-      "outputPath": "e:\\.NET\\ProyectoCore\\WebAPI\\obj\\",
+      "outputPath": "E:\\.NET\\ProyectoCore\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -7592,11 +7592,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "e:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
-              "projectPath": "e:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj"
+            "E:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
+              "projectPath": "E:\\.NET\\ProyectoCore\\Aplicacion\\Aplicacion.csproj"
             },
-            "e:\\.NET\\ProyectoCore\\Seguridad\\Seguridad.csproj": {
-              "projectPath": "e:\\.NET\\ProyectoCore\\Seguridad\\Seguridad.csproj"
+            "E:\\.NET\\ProyectoCore\\Seguridad\\Seguridad.csproj": {
+              "projectPath": "E:\\.NET\\ProyectoCore\\Seguridad\\Seguridad.csproj"
             }
           }
         }
